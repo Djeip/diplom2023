@@ -226,7 +226,6 @@ class WandbLogger():
             self.val_table_map[data[3]] = data[0]
 
     def create_dataset_table(self, dataset, class_to_id, name='dataset'):
-
         artifact = wandb.Artifact(name=name, type="dataset")
         img_files = tqdm([dataset.path]) if isinstance(dataset.path, str) and Path(dataset.path).is_dir() else None
         img_files = tqdm(dataset.img_files) if not img_files else img_files

@@ -3,7 +3,7 @@ import random
 import torch
 import torch.nn as nn
 
-from yolo.models.common import Conv
+from yolo.models.common import Conv, DWConv
 from yolo.utils.google_utils import attempt_download
 
 

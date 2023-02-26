@@ -3,9 +3,11 @@ import logging
 import sys
 from copy import deepcopy
 
-sys.path.append('/')  # to run '$ python *.py' files in subdirectories
+sys.path.append('./')  # to run '$ python *.py' files in subdirectories
 logger = logging.getLogger(__name__)
 import torch
+from yolo.models.common import *
+from yolo.models.experimental import *
 from yolo.utils.autoanchor import check_anchor_order
 from yolo.utils.general import make_divisible, check_file, set_logging
 from yolo.utils.torch_utils import time_synchronized, fuse_conv_and_bn, model_info, scale_img, initialize_weights, \

@@ -8,8 +8,8 @@ Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-t
 [![arxiv.org](http://img.shields.io/badge/cs.CV-arXiv%3A2207.02696-B31B1B.svg)](https://arxiv.org/abs/2207.02696)
 
 <div align="center">
-    <a href="..">
-        <img src="figureerformance.png" width="79%"/>
+    <a href="./">
+        <img src="./figure/performance.png" width="79%"/>
     </a>
 </div>
 
@@ -141,8 +141,8 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inferen
 ```
 
 <div align="center">
-    <a href="..">
-        <img src="figureorses_prediction.jpg" width="59%"/>
+    <a href="./">
+        <img src="./figure/horses_prediction.jpg" width="59%"/>
     </a>
 </div>
 
@@ -190,8 +190,8 @@ Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
 See [keypoint.ipynb](https://github.com/WongKinYiu/yolov7/blob/main/tools/keypoint.ipynb).
 
 <div align="center">
-    <a href="..">
-        <img src="figureose.png" width="39%"/>
+    <a href="./">
+        <img src="./figure/pose.png" width="39%"/>
     </a>
 </div>
 
@@ -203,8 +203,8 @@ See [keypoint.ipynb](https://github.com/WongKinYiu/yolov7/blob/main/tools/keypoi
 See [instance.ipynb](https://github.com/WongKinYiu/yolov7/blob/main/tools/instance.ipynb).
 
 <div align="center">
-    <a href="..">
-        <img src="figureask.png" width="59%"/>
+    <a href="./">
+        <img src="./figure/mask.png" width="59%"/>
     </a>
 </div>
 
@@ -246,17 +246,17 @@ YOLOv7 with decoupled TAL head (YOLOR + YOLOv5 + YOLOv6)
 Yolov7-semantic & YOLOv7-panoptic & YOLOv7-caption
 
 <div align="center">
-    <a href="..">
-        <img src="figureennis.jpg" width="24%"/>
+    <a href="./">
+        <img src="./figure/tennis.jpg" width="24%"/>
     </a>
-    <a href="..">
-        <img src="figureennis_semantic.jpg" width="24%"/>
+    <a href="./">
+        <img src="./figure/tennis_semantic.jpg" width="24%"/>
     </a>
-    <a href="..">
-        <img src="figureennis_panoptic.png" width="24%"/>
+    <a href="./">
+        <img src="./figure/tennis_panoptic.png" width="24%"/>
     </a>
-    <a href="..">
-        <img src="figureennis_caption.png" width="24%"/>
+    <a href="./">
+        <img src="./figure/tennis_caption.png" width="24%"/>
     </a>
 </div>
 

@@ -8,11 +8,11 @@ import torch.backends.cudnn as cudnn
 from numpy import random
 
 from models.experimental import attempt_load
-from yolo.utils import LoadStreams, LoadImages
-from yolo.utils import check_img_size, check_imshow, non_max_suppression, apply_classifier, \
+from utils.datasets import LoadStreams, LoadImages
+from utils.general import check_img_size, check_requirements, check_imshow, non_max_suppression, apply_classifier, \
     scale_coords, xyxy2xywh, strip_optimizer, set_logging, increment_path
-from yolo.utils import plot_one_box
-from yolo.utils import select_device, load_classifier, time_synchronized, TracedModel
+from utils.plots import plot_one_box
+from utils.torch_utils import select_device, load_classifier, time_synchronized, TracedModel
 
 
 def detect(save_img=False):
