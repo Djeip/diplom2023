@@ -21,18 +21,18 @@
 *.json
 *.cfg
 !setup.cfg
-!cfg/yolov3*.cfg
+!yolo/cfg/yolov3*.cfg
 
 storage.googleapis.com
 runs/*
-data/*
-data/images/*
+yolo/data/*
+yolo/data/images/*
 !data/*.yaml
-!data/hyps
-!data/scripts
-!data/images
-!data/images/zidane.jpg
-!data/images/bus.jpg
+!yolo/data/hyps
+!yolo/data/scripts
+!yolo/data/images
+!yolo/data/images/zidane.jpg
+!yolo/data/images/bus.jpg
 !data/*.sh
 
 results*.csv
