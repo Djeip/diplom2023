@@ -1,0 +1,5 @@
+outs:
+    - md5: c9f37a5399a5c47aa3e0b623ff7925b5.dir
+      size: 3218967
+      path: images
+      nfiles: 50
