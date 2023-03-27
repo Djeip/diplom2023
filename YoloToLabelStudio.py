@@ -150,7 +150,7 @@ def main():
     data_fullpath = args.repo + '/' + data
     print(data_fullpath)
     if os.path.isdir(data_fullpath):
-        data = [os.path.join(data, l) for l in os.listdir(data_fullpath) if is_image(l)]
+        data = [data+ '/' + l for l in os.listdir(data_fullpath) if is_image(l)]
     else:
         data = [data]
 
