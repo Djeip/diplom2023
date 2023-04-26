@@ -1,0 +1,178 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1681814108",
+  "data": {
+    "annotation": {
+      "id": 537,
+      "result": [
+        {
+          "original_width": 416,
+          "original_height": 416,
+          "image_rotation": 0,
+          "value": {
+            "x": 12.387096774193548,
+            "y": 28.000000000000004,
+            "width": 11.741935483870968,
+            "height": 9.67741935483871,
+            "rotation": 0,
+            "rectanglelabels": [
+              "fire"
+            ]
+          },
+          "id": "PTlMbPY0oN",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "manual"
+        },
+        {
+          "original_width": 416,
+          "original_height": 416,
+          "image_rotation": 0,
+          "value": {
+            "x": 23.827179423573554,
+            "y": 28.827297650720634,
+            "width": 75.47209996632225,
+            "height": 10.764322731655703,
+            "rotation": 6.63947051889312,
+            "rectanglelabels": [
+              "fire"
+            ]
+          },
+          "id": "RA4VACBZnH",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2023-04-18T10:35:08.798801Z",
+      "updated_at": "2023-04-18T10:35:08.798828Z",
+      "lead_time": 40.168,
+      "prediction": {
+        "id": 3746,
+        "model_version": "INITIAL",
+        "created_ago": "14\u00a0minutes",
+        "result": [],
+        "score": 0.0,
+        "cluster": 0,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2023-04-18T10:20:42.306383Z",
+        "updated_at": "2023-04-18T10:20:42.306449Z",
+        "task": 1984
+      },
+      "result_count": 0,
+      "unique_id": "de414609-a803-4c7d-8eb6-b021b80b7b25",
+      "last_action": null,
+      "task": 1984,
+      "project": 16,
+      "completed_by": 1,
+      "updated_by": 1,
+      "parent_prediction": 3746,
+      "parent_annotation": null,
+      "last_created_by": null
+    },
+    "project": {
+      "id": 16,
+      "task_number": 623,
+      "finished_task_number": 11,
+      "total_predictions_number": 250,
+      "total_annotations_number": 11,
+      "num_tasks_with_annotations": 11,
+      "useful_annotation_number": 11,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #5",
+      "description": "",
+      "label_config": "<View>\n  <Image name=\"image\" value=\"$image\"/>\n  <RectangleLabels name=\"label\" toName=\"image\">\n    \n    \n  <Label value=\"fire\" background=\"#FFA39E\"/></RectangleLabels>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "RectangleLabels",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "fire"
+          ],
+          "labels_attrs": {
+            "fire": {
+              "value": "fire",
+              "background": "#FFA39E"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "7b03f71618ae1eb1",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "RectangleLabels",
+          "labels": {
+            "fire": 1.0
+          }
+        }
+      },
+      "model_version": "INITIAL",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2023-04-18T08:44:46.653720Z",
+      "updated_at": "2023-04-18T10:23:52.446786Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "organization": 1,
+      "created_by": 1
+    },
+    "task": {
+      "id": 1984,
+      "data": {
+        "image": "/data/upload/16/5115d491-images10_84.jpg"
+      },
+      "meta": {},
+      "created_at": "2023-04-18T08:45:17.447626Z",
+      "updated_at": "2023-04-18T10:35:08.883156Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 364,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 16,
+      "updated_by": 1,
+      "file_upload": 6596,
+      "comment_authors": []
+    }
+  }
+}

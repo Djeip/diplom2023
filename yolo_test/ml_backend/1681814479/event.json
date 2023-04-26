@@ -1,0 +1,215 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1681814479",
+  "data": {
+    "annotation": {
+      "id": 546,
+      "result": [
+        {
+          "original_width": 275,
+          "original_height": 183,
+          "image_rotation": 0,
+          "value": {
+            "x": 50.11987942616188,
+            "y": 35.57861874902773,
+            "width": 39.88883833451705,
+            "height": 60.1859483562532,
+            "rotation": 0,
+            "rectanglelabels": [
+              "fire"
+            ]
+          },
+          "id": "4c23444Wpz",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "prediction-changed",
+          "score": 0.6711133122444153
+        },
+        {
+          "original_width": 275,
+          "original_height": 183,
+          "image_rotation": 0,
+          "value": {
+            "x": 58.66182772283913,
+            "y": 14.45078067904763,
+            "width": 23.692577015269887,
+            "height": 28.12481864553983,
+            "rotation": 0,
+            "rectanglelabels": [
+              "fire"
+            ]
+          },
+          "id": "vif7N1x4cM",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "prediction-changed",
+          "score": 0.2537347972393036
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2023-04-18T10:41:19.740795Z",
+      "updated_at": "2023-04-18T10:41:19.740823Z",
+      "lead_time": 9.608,
+      "prediction": {
+        "id": 3980,
+        "model_version": "INITIAL",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "original_height": 183,
+            "original_width": 275,
+            "score": 0.6711133122444153,
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 60.185948356253206,
+              "rectanglelabels": [
+                "fire"
+              ],
+              "width": 39.88883833451705,
+              "x": 50.59892134232955,
+              "y": 26.76566910873997
+            }
+          },
+          {
+            "from_name": "label",
+            "original_height": 183,
+            "original_width": 275,
+            "score": 0.2537347972393036,
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 28.12481864553983,
+              "rectanglelabels": [
+                "fire"
+              ],
+              "width": 23.692577015269887,
+              "x": 55.42829478870739,
+              "y": 14.99034902437137
+            }
+          }
+        ],
+        "score": 0.46242405474185944,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2023-04-18T10:41:08.002400Z",
+        "updated_at": "2023-04-18T10:41:08.002443Z",
+        "task": 2184
+      },
+      "result_count": 0,
+      "unique_id": "5ac4fd84-4c0b-44b2-b2b0-69cce7ead29d",
+      "last_action": null,
+      "task": 2184,
+      "project": 16,
+      "completed_by": 1,
+      "updated_by": 1,
+      "parent_prediction": 3980,
+      "parent_annotation": null,
+      "last_created_by": null
+    },
+    "project": {
+      "id": 16,
+      "task_number": 623,
+      "finished_task_number": 20,
+      "total_predictions_number": 295,
+      "total_annotations_number": 20,
+      "num_tasks_with_annotations": 20,
+      "useful_annotation_number": 20,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #5",
+      "description": "",
+      "label_config": "<View>\n  <Image name=\"image\" value=\"$image\"/>\n  <RectangleLabels name=\"label\" toName=\"image\">\n    \n    \n  <Label value=\"fire\" background=\"#FFA39E\"/></RectangleLabels>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "RectangleLabels",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "fire"
+          ],
+          "labels_attrs": {
+            "fire": {
+              "value": "fire",
+              "background": "#FFA39E"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "7b03f71618ae1eb1",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "RectangleLabels",
+          "labels": {
+            "fire": 1.0
+          }
+        }
+      },
+      "model_version": "INITIAL",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2023-04-18T08:44:46.653720Z",
+      "updated_at": "2023-04-18T10:23:52.446786Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "organization": 1,
+      "created_by": 1
+    },
+    "task": {
+      "id": 2184,
+      "data": {
+        "image": "/data/upload/16/1ec16e41-images19_306.jpg"
+      },
+      "meta": {},
+      "created_at": "2023-04-18T08:45:17.471691Z",
+      "updated_at": "2023-04-18T10:41:19.836873Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 564,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 16,
+      "updated_by": 1,
+      "file_upload": 6796,
+      "comment_authors": []
+    }
+  }
+}

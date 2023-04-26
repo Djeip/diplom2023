@@ -1,0 +1,197 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1681814232",
+  "data": {
+    "annotation": {
+      "id": 539,
+      "result": [
+        {
+          "original_width": 183,
+          "original_height": 275,
+          "image_rotation": 0,
+          "value": {
+            "x": 65.05077234564628,
+            "y": 31.007161696984973,
+            "width": 4.329072615593947,
+            "height": 3.1796887529211104,
+            "rotation": 0,
+            "rectanglelabels": [
+              "fire"
+            ]
+          },
+          "id": "b28zFLCl1S",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "prediction-changed",
+          "score": 0.31181418895721436
+        },
+        {
+          "original_width": 183,
+          "original_height": 275,
+          "image_rotation": 0,
+          "value": {
+            "x": 42.82945736434105,
+            "y": 24.64516129032256,
+            "width": 3.875968992248068,
+            "height": 6.967741935483897,
+            "rotation": 0,
+            "rectanglelabels": [
+              "fire"
+            ]
+          },
+          "id": "Qt1As3Yrbg",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2023-04-18T10:37:11.861423Z",
+      "updated_at": "2023-04-18T10:37:11.861448Z",
+      "lead_time": 40.892,
+      "prediction": {
+        "id": 3937,
+        "model_version": "INITIAL",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "original_height": 275,
+            "original_width": 183,
+            "score": 0.31181418895721436,
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 25.50226939808239,
+              "rectanglelabels": [
+                "fire"
+              ],
+              "width": 88.82519664660178,
+              "x": 0.0,
+              "y": 66.87812943892045
+            }
+          }
+        ],
+        "score": 0.31181418895721436,
+        "cluster": 0,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2023-04-18T10:36:17.896561Z",
+        "updated_at": "2023-04-18T10:36:17.896602Z",
+        "task": 2141
+      },
+      "result_count": 0,
+      "unique_id": "60dc4942-9b9c-4777-b780-a1357f82123b",
+      "last_action": null,
+      "task": 2141,
+      "project": 16,
+      "completed_by": 1,
+      "updated_by": 1,
+      "parent_prediction": 3937,
+      "parent_annotation": null,
+      "last_created_by": null
+    },
+    "project": {
+      "id": 16,
+      "task_number": 623,
+      "finished_task_number": 13,
+      "total_predictions_number": 267,
+      "total_annotations_number": 13,
+      "num_tasks_with_annotations": 13,
+      "useful_annotation_number": 13,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #5",
+      "description": "",
+      "label_config": "<View>\n  <Image name=\"image\" value=\"$image\"/>\n  <RectangleLabels name=\"label\" toName=\"image\">\n    \n    \n  <Label value=\"fire\" background=\"#FFA39E\"/></RectangleLabels>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "RectangleLabels",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "fire"
+          ],
+          "labels_attrs": {
+            "fire": {
+              "value": "fire",
+              "background": "#FFA39E"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "7b03f71618ae1eb1",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "RectangleLabels",
+          "labels": {
+            "fire": 1.0
+          }
+        }
+      },
+      "model_version": "INITIAL",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2023-04-18T08:44:46.653720Z",
+      "updated_at": "2023-04-18T10:23:52.446786Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "organization": 1,
+      "created_by": 1
+    },
+    "task": {
+      "id": 2141,
+      "data": {
+        "image": "/data/upload/16/bffa51c1-images12_505.jpg"
+      },
+      "meta": {},
+      "created_at": "2023-04-18T08:45:17.466012Z",
+      "updated_at": "2023-04-18T10:37:11.949987Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 521,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 16,
+      "updated_by": 1,
+      "file_upload": 6753,
+      "comment_authors": []
+    }
+  }
+}
