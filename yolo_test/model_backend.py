@@ -7,11 +7,11 @@ from label_studio_ml import model
 from label_studio_ml.model import LabelStudioMLBase
 from label_studio_ml.utils import get_image_size, get_single_tag_keys, is_skipped
 import joblib
-from tensorflow.keras.utils import load_img, img_to_array
-from keras.applications.vgg16 import VGG16
-from keras.applications.vgg16 import preprocess_input
-import numpy as np
-from sklearn.cluster import KMeans
+# from tensorflow.keras.utils import load_img, img_to_array
+# from keras.applications.vgg16 import VGG16
+# from keras.applications.vgg16 import preprocess_input
+# import numpy as np
+# from sklearn.cluster import KMeans
 import os, shutil, glob, os.path
 
 model.LABEL_STUDIO_ML_BACKEND_V2_DEFAULT = True

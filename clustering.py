@@ -15,7 +15,7 @@ model = VGG16(weights='imagenet', include_top=False)
 
 # Variables
 imdir = r'D:\imgs\train\images'
-targetdir = r"D:\imgs\train_cl\images\"
+targetdir = r'D:\imgs\train_cl\images'
 
 # Loop over files and get features
 filelist = glob.glob(os.path.join(imdir, '*.jpg'))
